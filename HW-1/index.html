@@ -4,25 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HM1</title>
+    <title>HM1-Git</title>
+    <style>
+      body{ margin-bottom: 50px;
+          background-color: #f7f1ef;
+          padding:0 20% 0 20%;
+          font-family:  sans-serif;
+          line-height: 1.5;
+      }
+    
+      dt{
+        font-weight: bold;
+          color:rgb(88, 8, 62);
+      }
+      dd{font-weight: bold;
+      }
+      h1{text-align: center;
+      margin: 50px;}
+      b{color: rgb(88, 8, 62);
+      }
+  
+     
+  </style>
   </head>
   <body>
-    <p>
-      git config --global user.name - user.email=ostaplviv1989@gmail.com - мій
-      мейл (буде відображатись при створенні комітів на гід)ю
-    </p>
-    <p>
-      git config --global user.email - user.name=Ostap Ohorodnyk - мій нік (буде
-      відображатись при створенні комітів на гід)ю
-    </p>
-    <p>
-      git init - Git створює у вказаній папці приховану папку ".git". Зберігає
-      структуру репозиторію.
-    </p>
-    <p>
-      git status - показує у яких файлах відбулись зміни та які файли не
-      відстежуються
-    </p>
-    <p>git add -</p>
+    <h1>basic git commands</h1>
+    <ul>
+      <li>
+        <b>git config --global user.name - </b> user.email=ostaplviv1989@gmail.com - мій
+        мейл (буде відображатись при створенні комітів на гід.
+      </li>
+      <li>
+        <b>git config --global user.email - </b>user.name=Ostap Ohorodnyk - мій нік
+        (буде відображатись при створенні комітів на гід.
+      </li>
+      <li>
+        <b>git init - </b> Git створює у вказаній папці приховану папку ".git". Зберігає
+        структуру репозиторію.
+      </li>
+      <li>
+        <b>git status - </b> показує у яких файлах відбулись зміни та які файли не
+        відстежуються git add - зробити всі звіми готовими для коміт;
+      </li>
+      <li>
+        <b>git commit -</b> запис змін у репозиторій. Для запису повідомлення
+        відкриється редактор.
+      </li>
+      <li> <b>git log -</b> список змін поточної гілки;</li>
+      <li>
+        <b>git checkout -</b> використовується для копіювання файлів з історії в робочу
+        директорію. Також вона може використовуватися для перемикання між
+        гілками;
+      </li>
+
+      <li><b>git branch -</b> дозволяє створити і перетйти на нову гілку;</li>
+      <li> <b>git push - </b> Відправляє коміти у віддалений репозиторій;</li>
+
+      <li>
+        <b>git pull -</b> Завантажує історію з віддаленого репозиторію та об'єднує її з
+        локальною git merge - Об'єднати гілки;
+      </li>
+      <li><b>git merge -</b> Об'єднати гілки;</li>
+      <li><b>git clone -</b> загрузить проект і його історію змін.</li>
+    </ul>
+    <h1>Advanced</h1>
+    <ul>
+      <dl>
+        <dt> git revert</dt><dd> - відміняє останній коміт, але не видаляє коміт із історії
+        комінтів;</dd>
+      
+        <dt>git reset</dt><dd>  - Скасовує всі коміти після заданого, залишаючи всі зміни в
+        робочій директорії;</dd>
+     
+        <dt>git rebase</dt><dd>  - Повторно застосувати коміти поверх іншої базової підказки;</dd>
+     
+        <dt>git cherry-pick </dt><dd> - Застосовує зміни, внесені деякими існуючими комітами;</dd>
+      
+        <dt>git stash </dt><dd> - Зберігає зміни в брудному робочому каталозі. Команда
+        зберігає ваші локальні модифікації та повертає робочий каталог
+        відповідно до HEAD коміту.</dd>
+      </dl>
   </body>
 </html>
