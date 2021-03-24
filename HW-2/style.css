@@ -1,0 +1,62 @@
+body {
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-color: rgb(190, 215, 216);
+}
+.main-container {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(144, 179, 179, 0.2);
+  font-family: sans-serif;
+}
+
+.main-titel {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0 50px 0;
+  letter-spacing: 1px;
+}
+.main-tabel {
+  border-color: brown;
+  margin: auto;
+}
+
+.main-input {
+  margin: 50px 0 50px 0;
+  width: auto;
+  text-align: center;
+}
+.name-input {
+  padding: 10px;
+  width: auto;
+}
+.select-city {
+  padding: 10px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.input-question {
+  margin-right: 50px;
+  width: 320px;
+  height: 200px;
+  resize: none;
+}
+.send-message {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.sub-btn {
+  padding: 5px 10px 5px 10px;
+  margin-top: auto;
+  border-radius: 5px;
+  border: 1px solid rgba(116, 26, 26, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.language-style {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
