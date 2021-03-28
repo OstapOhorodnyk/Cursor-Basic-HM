@@ -8,9 +8,9 @@ table {
   background: #353535;
   height: 40px;
   width: 50%;
-
-  border-collapse: collapse;
-
+  border: 1px rgb(104, 103, 103) solid;
+  border-spacing: 0px;
+  border-radius: 7px;
   border-radius: 10px;
 }
 .name-tabel {
@@ -39,6 +39,8 @@ th {
   width: 50%;
 }
 td {
+  border-top: 1px rgb(104, 103, 103) solid;
+
   width: 20%;
 }
 
