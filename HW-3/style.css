@@ -62,6 +62,7 @@ td {
   text-align: left;
   border: none;
   color: aliceblue;
+  outline: none;
 }
 th.tabel-3-name {
   width: 33%;
