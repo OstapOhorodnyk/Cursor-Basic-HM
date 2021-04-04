@@ -1,0 +1,429 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+.main-block {
+  height: 500px;
+  width: 100%;
+  background-color: #ed4c5c;
+  margin: 0%;
+  padding: 0%;
+}
+.main-tex {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  height: 107px;
+  width: 445px;
+
+  margin: 122px 81px 24px 165px;
+  padding: 0;
+  position: absolute;
+}
+
+.main-block-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  height: 64px;
+  width: 445px;
+  top: 253px;
+  position: absolute;
+  margin: 0px 81px 44px 165px;
+}
+.main-img {
+  height: 311px;
+  width: 533px;
+  height: 311px;
+  margin: 94px 216px 95px 691px;
+  position: absolute;
+}
+.apps-market {
+  height: 32px;
+  width: 150px;
+  left: 166px;
+  top: 357px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.top-img {
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+}
+
+.apple {
+  margin: 0 25px 0 25px;
+}
+
+/*------Feedback-section-style-------*/
+
+.Feedback {
+  width: 100%;
+  height: 545px;
+  background-color: #ffffff;
+}
+
+.Feedback-text-content {
+  width: 445px;
+  height: 160px;
+  position: absolute;
+  margin: 122px 165px;
+}
+
+.contact {
+  position: absolute;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.contact-text {
+  position: absolute;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.questions {
+  width: 434px;
+  height: 64px;
+  margin-top: 96px;
+}
+.questions-text {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  color: #000000;
+}
+
+.form-Feedback {
+  width: 540px;
+  height: 305px;
+  position: absolute;
+  margin: 117px 165px 78px 735px;
+}
+
+.first-name {
+  position: absolute;
+  width: 255px;
+  height: 60px;
+}
+
+.last-name {
+  position: absolute;
+  margin-left: 285px;
+  width: 255px;
+  height: 60px;
+}
+
+.phone {
+  position: absolute;
+  margin-top: 84px;
+  width: 540px;
+  height: 60px;
+}
+
+.service {
+  position: absolute;
+  margin-top: 168px;
+  width: 540px;
+  height: 60px;
+}
+
+.submit {
+  position: absolute;
+  margin-top: 255px;
+  width: 160px;
+  height: 50px;
+}
+
+.input-first-name,
+.input-last-name,
+.input-phone,
+.select-service {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 31px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+select {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("img/ArrowDown.svg");
+  background-repeat: no-repeat;
+  background-position-x: 500px;
+  background-position-y: 23px;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*------Footer-section-style-------*/
+
+.footer {
+  width: 100%;
+  height: 435px;
+  background-color: #fafafa;
+}
+
+.address,
+.facebook,
+.services,
+.get-in-touch-content,
+.we-support,
+.visa-mastercard {
+  position: absolute;
+}
+
+.address {
+  position: absolute;
+  width: 259px;
+  height: 264px;
+  margin-top: 85px;
+  margin-left: 161px;
+}
+
+.address-address {
+  width: 65px;
+  height: 22px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.text-address {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  margin: 0px;
+}
+
+.pipang {
+  width: 254px;
+  height: 54px;
+  margin-left: 5px;
+  margin-top: 55px;
+  position: absolute;
+}
+
+.text-pipang {
+  font-size: 12px;
+  line-height: 18px;
+  color: #101010;
+  margin: 0px;
+}
+
+.copyright {
+  width: 160px;
+  height: 14px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+.text-copyright {
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin: 0px;
+}
+
+.services {
+  width: 254px;
+  height: 164px;
+  margin-top: 85px;
+  margin-left: 450px;
+}
+
+.services-services {
+  width: 70px;
+  height: 22px;
+  position: absolute;
+}
+
+.text-services {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin: 0px;
+}
+
+.overview {
+  width: 254px;
+  height: 114px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.text-overview {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0px;
+}
+
+a {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.get-in-touch-content {
+  width: 122px;
+  height: 128px;
+  margin-top: 85px;
+  margin-left: 734px;
+}
+
+.get-in-touch {
+  margin-right: 10xp;
+
+  font-weight: bold;
+  width: 122px;
+  height: 22px;
+  position: absolute;
+}
+
+.text-get-in-touch {
+  width: 130px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin: 0px;
+}
+
+.email {
+  width: 122px;
+  height: 14px;
+  margin-top: 55px;
+  position: absolute;
+}
+
+.text-email {
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin: 0px;
+}
+
+.phone-number {
+  width: 96px;
+  height: 14px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.text-phone-number {
+  font-size: 12px;
+  line-height: 14px;
+  color: #121212;
+  margin: 0px;
+}
+
+.social {
+  width: 66px;
+  height: 14px;
+  margin-top: 114px;
+  position: absolute;
+}
+
+.linkedin {
+  position: absolute;
+  margin-left: 26px;
+}
+
+.twitter {
+  position: absolute;
+  margin-left: 52px;
+}
+
+.we-support {
+  width: auto;
+  height: 22px;
+  margin-top: 85px;
+  margin-left: 1022px;
+}
+
+.text-we-support {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin: 0px;
+}
+
+.visa-mastercard {
+  width: 216px;
+  height: 31px;
+  margin-top: 140px;
+  margin-left: 1028px;
+}
+
+.img-visa-mastercard {
+  width: 216px;
+  height: 31px;
+}
