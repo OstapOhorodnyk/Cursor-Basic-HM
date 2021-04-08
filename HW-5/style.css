@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+body {
+  background: #e5e5e5;
+}
+/*---header----*/
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+.main-logo {
+  margin-right: 120px;
+}
+.header {
+  width: auto;
+  font-family: "Lato", "Avenir", Arial, Helvetica, sans-serif;
+  margin: 50px 240px 130px 240px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-navbar {
+  width: 40%;
+  margin-right: 20%;
+}
+.heder-btn {
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 210px;
+  min-width: 210px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+
+.btn-arrow {
+  width: 20px;
+  margin: auto 20px;
+}
+button:hover {
+  background: #f063b8;
+  color: white;
+}
+
+.nav-text-decor {
+  text-decoration: none;
+  color: #4b5d68;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  font-style: normal;
+  margin: 20px;
+}
+/*---header----*/
+/*---SECTION-1----*/
+.conteiner-1 {
+  background-image: url(img/img-1.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 700px;
+  width: 1200px;
+  max-width: ;
+  height: 500px;
+  margin: 150px 112px 100px 240px;
+}
+.h1-section-1 {
+  width: 645px;
+  height: 184px;
+  position: relative;
+}
+.main-h1-section-1 {
+  color: #212353;
+  font-family: Helvetica;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flex-section1 {
+  display: flex;
+}
+.itimes-section-1 {
+  width: 380px;
+  height: 120px;
+}
+.text-section-1 {
+  margin-top: 50px;
+  font-family: "Avenir", Helvetica;
+  color: #4b5d68;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.btn-learn {
+  box-shadow: 1px 1px 1px black;
+  margin-top: 50px;
+  width: 170px;
+  height: 60px;
+  background: #9c69e2;
+  border-radius: 50px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/*----conteiner -2 -------*/
+
+.conteiner-2 {
+  margin: 100px 240px 150px 240px;
+}
+.border-conteiner-2 {
+  width: 100%;
+  height: auto;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+.border-conteiner-2 {
+  display: flex;
+  align-items: center;
+}
+.img-2 {
+  margin: 30px 62px 25px 11px;
+}
+.h2-text-conteiner-2 {
+  margin-right: 90px;
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #212353;
+  font-weight: bold;
+  line-height: 130%;
+  font-weight: 700;
+  line-height: 52px;
+}
+.text-conteiner-2 {
+  width: auto;
+  margin-top: 40px;
+  margin-right: 90px;
+  font-family: "Avenir";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b5d68;
+}
+/*------conteiner-3 ------*/
+.conteiner-3 {
+  width: 100%;
+}
+.main-text-conteiner-3 {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  color: #212353;
+  text-align: center;
+  min-width: 1100px;
+}
+.text-conteiner-3 {
+  color: #4b5d68;
+  font-family: "Avenir";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  max-width: 500px;
+  margin-bottom: 150px;
+  margin-top: 40px;
+}
+
+/*-----conteiner-4---*/
+
+.conteiner-4 {
+  width: 100%;
+  margin: 0px 290px 183px 220px;
+}
+.line-content {
+  display: flex;
+}
+.block-ing-text {
+  margin-left: 30px;
+}
+.main-content {
+  display: flex;
+  margin-bottom: 130px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+.text-conteiner-4 {
+  margin: 20px auto;
+  width: 220px;
+  font-family: "Avenir";
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+.margin-left-93 {
+  margin-left: 93px;
+}
+.arrow-link {
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+.arrow-conteiner-4 {
+  width: 20px;
+}
+.margin-10px {
+  margin-right: 10px;
+}
+.img-print {
+  max-width: 230px;
+}
