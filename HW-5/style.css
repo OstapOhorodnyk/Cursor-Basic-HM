@@ -12,6 +12,7 @@ button,
 button:active,
 button:focus {
   outline: none;
+  border: 0;
 }
 .main-logo {
   margin-right: 120px;
@@ -43,7 +44,7 @@ button:focus {
   width: 20px;
   margin: auto 20px;
 }
-button:hover {
+button.heder-btn:hover {
   background: #f063b8;
   color: white;
 }
@@ -128,11 +129,10 @@ button:hover {
   height: auto;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
-}
-.border-conteiner-2 {
   display: flex;
   align-items: center;
 }
+
 .img-2 {
   margin: 30px 62px 25px 11px;
 }
@@ -245,4 +245,332 @@ button:hover {
 }
 .img-print {
   max-width: 230px;
+}
+/*------section-5------*/
+
+.conteiner-5 {
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom: 250px;
+}
+.border-conteiner-5 {
+  margin: 0px 240px 0px 240px;
+  width: 100%;
+  max-width: 1118px;
+  height: 709px;
+  background: #9c69e2;
+  border-radius: 50px;
+  display: inline-block;
+}
+.main-text-conteiner-5 {
+  margin: 109px 0px 88px 93px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+  display: flex;
+  text-align: start;
+  max-width: 1118px;
+}
+.border-business-card {
+  display: flex;
+  align-items: center;
+  width: 949px;
+  background: #ffffff;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  border-radius: 20px;
+  margin: 0px 73px 63px 93px;
+}
+.business-card-text {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+}
+.John-Fang {
+  margin-top: 80px;
+  width: 250.12px;
+  height: 29px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.wordfaang {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #9c69e2;
+  text-decoration: none;
+}
+.text-card {
+  width: auto;
+  margin: 20px 103px 50px 0px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+}
+.head-men {
+  width: 132px;
+  height: 90px;
+  margin: 60px 44px 180px 103px;
+}
+.points-arrow {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin: 60px 76px 60px 90px;
+}
+.points {
+  display: flex;
+  align-items: center;
+}
+.point {
+  margin: 10px;
+  display: flex;
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+.point:hover {
+  height: 10px;
+  width: 10px;
+  background-color: #f063b8;
+  cursor: pointer;
+}
+
+.point-activ {
+  margin: 10px;
+  display: flex;
+  height: 10px;
+  width: 10px;
+  background-color: #f063b8;
+  border-radius: 50%;
+}
+.test-arrows {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  margin-right: 170px;
+}
+.test-arrows a:hover {
+  margin: 5px 5px;
+}
+.arrow-darck {
+  transform: rotate(180deg);
+  opacity: 0.6;
+  width: 30px;
+}
+.white-arrow {
+  margin-right: 20px;
+}
+.hr-width100 {
+  width: 100%;
+  margin-right: 0%;
+  height: 2px;
+  box-sizing: content-box;
+  background: #9c69e2;
+  opacity: 0.9;
+  margin-bottom: 100px;
+}
+/*------Footer-----*/
+.footer {
+  margin: 0px 240px 100px 240px;
+}
+.footer-text-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.pink {
+  border: 0;
+  background: #f063b8;
+  margin-right: 30px;
+}
+button.pink:hover {
+  background: white;
+  color: #f063b8;
+}
+.try-for {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+.get-limit {
+  margin-top: 20px;
+  max-width: 584px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+.footer-links {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.social-icon {
+  background: #212353;
+  opacity: 0.1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.DataWarehouse-text {
+  margin-left: 20px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+
+  color: #212353;
+}
+.About-text {
+  margin-bottom: 30px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #212353;
+}
+.About {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Social-Media {
+  display: inline-block;
+  min-width: 170px;
+}
+.social {
+  display: flex;
+  margin-bottom: 120px;
+}
+.social-icon {
+  margin-right: 14px;
+}
+.fb:hover {
+  background: #29487d;
+  opacity: 1;
+}
+
+.twitter:hover {
+  background: #08a0e9;
+  opacity: 1;
+}
+
+.instagram:hover {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  opacity: 1;
+}
+.link {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+  text-decoration: none;
+}
+.Help-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.WarehouseSociety {
+  max-width: 335px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+.info-text {
+  margin-top: 10px;
+  max-width: 335px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+.Company-Registration {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+.dialog-icon {
+  background: #dbdbdb;
+  opacity: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.footer-company {
+  margin-top: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dialog-icon:hover {
+  background: #1b3d4d;
+  opacity: 1;
 }
