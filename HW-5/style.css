@@ -5,7 +5,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 body {
-  background: #e5e5e5;
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
 }
 /*---header----*/
 button,
