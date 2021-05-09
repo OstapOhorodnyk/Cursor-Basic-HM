@@ -1,0 +1,910 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 665px;
+}
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 665px;
+  background-color: #f4f6f9;
+  background-image: url(img/heder_img/Frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.header-conteiner-left-pert {
+  margin-left: 10%;
+}
+.Get-a-personalized {
+  max-width: 54%;
+  margin-top: 10%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.text-Achieve {
+  max-width: 44%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+.header-store {
+  margin-top: 5%;
+  max-width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-bt-img {
+  max-width: 156px;
+  max-height: 47px;
+}
+.Header-logo {
+  max-width: 80px;
+  max-height: 40px;
+}
+@media (max-width: 720px) {
+  .header-conteiner {
+    background-color: #f4f6f9;
+    background-image: none;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    align-items: center;
+  }
+  .header-conteiner-left-pert {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Get-a-personalized {
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+  }
+  .text-Achieve {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .header-store {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+    width: 100%;
+  }
+}
+/*------section-2-------*/
+
+.section-FC {
+  display: flex;
+  width: 100%;
+  height: 592px;
+}
+
+.fc-left-part {
+  display: flex;
+  width: 50%;
+}
+.foto-ronaldo {
+  width: 100%;
+  opacity: 0.5;
+}
+.video-card {
+  position: absolute;
+  padding-left: 15.2%;
+  padding-top: 18.4%;
+}
+.match-card {
+  max-height: 210px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: 8.5%;
+  margin-top: 7.5%;
+}
+.match-card-text {
+  width: auto;
+}
+.data-match {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
+  color: #4f4f4f;
+  margin-left: 1.8em;
+}
+.footbol-team {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  width: 5em;
+  margin-left: 1.8em;
+}
+.match-status {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin: auto;
+  margin-left: 1.8em;
+  margin-bottom: 1em;
+}
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 360px;
+  height: 49px;
+  background-color: #eeeeee;
+}
+
+.turn-on-text {
+  padding-left: 4%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.8812px;
+  line-height: 25px;
+  color: #4f4f4f;
+  width: 100%;
+}
+.fc-team-img {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 50%;
+}
+.chelsea-fc {
+  position: absolute;
+  margin-left: 70%;
+}
+.switch-img {
+  display: flex;
+  cursor: pointer;
+  margin: 0%;
+  padding: 0;
+}
+
+.border-grey {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #979797;
+  width: 35px;
+  height: 15px;
+  border-radius: 25%;
+  margin-right: 5%;
+}
+.ellipse {
+  align-self: flex-start;
+  position: absolute;
+}
+/*---------*/
+
+.right-part-section-2 {
+  border: black;
+  border-width: 10px;
+  align-self: center;
+  height: 592px;
+  padding-top: 12%;
+}
+.conteiner-section-2r-p {
+  display: block;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 20%;
+}
+.what-it-does {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+
+.An-Enhanced {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+}
+
+.Text-left-section-2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+}
+.Learn-more {
+  width: 100%;
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.conteiner-Text-swction-2 {
+  max-width: 400px;
+}
+@media (max-width: 720px) {
+  .section-FC {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 878px;
+    margin: auto;
+  }
+  .left-part-section-3 {
+    margin-top: 5%;
+  }
+  .fc-left-part {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    flex-direction: column;
+    order: 2;
+    margin: auto;
+  }
+  .right-part-section-2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+    order: 1;
+  }
+  .conteiner-section-2r-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .foto-ronaldo {
+    width: 100%;
+  }
+  .what-it-does {
+    text-align: center;
+  }
+  .An-Enhanced {
+    width: 80%;
+    text-align: center;
+  }
+  .Text-left-section-2 {
+    text-align: center;
+  }
+}
+
+/*---section-3----*/
+
+.section-3 {
+  background-image: url(img/SAMPLE05.png);
+  background-size: cover;
+  display: flex;
+  height: 714px;
+  align-items: center;
+  margin-left: 5%;
+}
+.what-it-does {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.left-part-section-3 {
+  position: absolute;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.mobile-look {
+  opacity: 0;
+}
+@media (max-width: 720px) {
+  .section-3 {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    height: 1350px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .conteiner-section-2r-p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .left-part-section-3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    order: 1;
+    margin-right: 10%;
+    z-index: 2;
+  }
+  .conteiner-section-2r-p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+
+    order: 1;
+  }
+  .mobile-look {
+    background-image: url(img/Mobile_bg-1.png);
+
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 1146px;
+    margin: auto;
+    order: 2;
+  }
+  .width-100 {
+    margin-top: 5%;
+    width: 100%;
+  }
+  .what-it-does {
+    text-align: center;
+    margin: 3% auto;
+  }
+  .margin-top-section-3 {
+    margin: 20% auto 0%;
+  }
+}
+/*-----section-4-----*/
+
+.section-4 {
+  width: 100%;
+  background-image: url(img/features-that/img-bg.png);
+  background-size: cover;
+}
+.main-conteiner-section-4 {
+  display: flex;
+  flex-direction: column;
+}
+.main-text-section-4 {
+  margin: 3em auto 2em auto;
+  width: 100%;
+  text-align: center;
+}
+.Features-section-4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+.conteiner-colum-section-4 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 4em;
+}
+.colum-1.colum-2.colum-3 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.colum-block {
+  min-height: 30%;
+  margin-top: 2em;
+}
+.colum-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  max-width: 286px;
+}
+
+@media (max-width: 720px) {
+  .section-4 {
+    width: 100%;
+    background-image: none;
+
+    margin: auto;
+  }
+  .conteiner-colum-section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .colum-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .Features-section-4 {
+    width: 60%;
+    color: #333333;
+    margin: auto;
+  }
+  .colum-text {
+    color: #4f4f4f;
+  }
+  .mobile {
+    fill: #00adee;
+  }
+}
+/*------section-5-----*/
+
+.section-5 {
+  overflow: hidden;
+  width: 100%;
+  height: 431px;
+  position: relative;
+}
+.main-rext-section-4 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  text-align: center;
+  margin: 2em 0em;
+}
+.conteiner-card-section-5 {
+  display: flex;
+  overflow: hidden;
+}
+.card-fitback {
+  position: relative;
+  padding: 15px;
+  display: block;
+  align-items: stretch;
+  min-width: 309px;
+  height: 161px;
+  border: 2px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.card-fitback-first {
+  position: relative;
+  padding: 15px;
+  display: block;
+  align-items: stretch;
+  min-width: 200px;
+  height: 161px;
+  border: 2px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.customer-photo {
+  width: 30px;
+  height: 30px;
+}
+.logo-twitter {
+  width: 15px;
+  height: 12px;
+}
+.card-fitback-head {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fitback-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+.customer-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  margin-right: 35%;
+}
+.section-fourth-bg-color-right {
+  background: linear-gradient(to right, transparent 1%, white);
+  position: absolute;
+  width: 14%;
+  height: 431px;
+  top: 0;
+  right: 0;
+}
+.section-5-linear-gradient-left {
+  background: linear-gradient(to right, white, transparent 99%);
+  position: absolute;
+  width: 14%;
+  height: 431px;
+  top: 0;
+  left: 0;
+}
+.section-5-linear-gradient-right {
+  background: linear-gradient(to right, transparent 1%, white);
+  position: absolute;
+  width: 14%;
+  height: 431px;
+  top: 0;
+  right: 0;
+}
+.margin-right-4 {
+  margin-right: 4%;
+}
+.margin-left-4 {
+  margin-left: 4%;
+}
+
+.arrow-left-section-5 {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.arrow-right-section-5 {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 86%;
+}
+.dots-section-5 {
+  margin-top: 3em;
+  margin-left: 48%;
+  position: relative;
+}
+@media (max-width: 720px) {
+  .section-5 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .conteiner-card-section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  .section-5-linear-gradient-right {
+    display: none;
+  }
+  .section-5-linear-gradient-left {
+    display: none;
+  }
+  .dots-section-5 {
+    margin: auto;
+  }
+  .card-fitback {
+    display: none;
+  }
+  .card-fitback-first {
+    display: none;
+  }
+  .mobile-card {
+    display: block;
+    align-items: stretch;
+    width: 309px;
+    height: 161px;
+  }
+  .arrow-left-section-5 {
+    opacity: 0;
+  }
+  .arrow-right-section-5 {
+    margin: auto;
+  }
+  .margin-left-arrow {
+    margin-left: 60%;
+  }
+}
+
+/*-----section-6-partners------*/
+.section-partners {
+  height: 278px;
+  width: 100%;
+  margin: 0 auto;
+}
+.conteiner-partners {
+  width: 100%;
+}
+.main-text-partners {
+  display: flex;
+  justify-content: center;
+}
+.main-text-section-6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin: 0%;
+}
+.logo-parners {
+  display: flex;
+  margin: 3em 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-partbers-hover:hover {
+  margin-top: 5px;
+  color: white;
+  opacity: 0.5;
+}
+@media (max-width: 720px) {
+  .conteiner-partners {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .logo-parners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+  }
+  .mobile-icons-tv-sport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin: 1em auto;
+  }
+  .mobile-icons-3-tv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin: 0 auto 1em;
+  }
+}
+
+/*-----footer----*/
+.footer-section {
+  height: 522px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-footer-conteiner {
+  display: flex;
+  width: 100%;
+}
+.conteiner-left-part {
+  max-width: 50%;
+}
+.container-right-part {
+  width: 100%;
+  display: block;
+  padding-left: 5%;
+}
+.main-text-footer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.text-footer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #434f4f;
+  width: 69%;
+  margin-bottom: 2em;
+}
+.footer-button {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.Apple-Store-bt.Google-Play-bt {
+  max-width: 153px;
+  max-height: 47px;
+}
+.Google-Play-bt {
+  margin-left: 2em;
+}
+
+.footer {
+  width: 100%;
+  height: 127px;
+  background-color: #00adee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.sport {
+  font-family: "Product Sans";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+.link {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.social-logo {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-svg:hover {
+  margin-top: 5px;
+}
+
+@media (max-width: 720px) {
+  .footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+  .conteiner-left-part {
+    display: flex;
+    background-image: url(img/we-have/Frame\ 2.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    order: 2;
+  }
+  .footer-img-Frame {
+    opacity: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .main-footer-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-right-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    order: 1;
+  }
+  .main-text-footer {
+    width: 50%;
+    text-align: center;
+    margin: 5em auto 1em;
+  }
+  .text-footer {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0em auto 1em;
+  }
+  .footer-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60%;
+    width: 100%;
+    margin: 2em auto;
+  }
+
+  /*-----footer----*/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .footer-logo {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 30%;
+  }
+  .social-logo {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 15%;
+    width: 100%;
+    max-width: 20%;
+    order: 1;
+    margin-bottom: 2em;
+  }
+  .link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    order: 2;
+  }
+  .link {
+    margin-bottom: 2em;
+  }
+}
